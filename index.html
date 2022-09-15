@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website using Bootstrap</title>
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- Nav bar Design -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="70px" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Client</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Photos Slider -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/photo 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/photo 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/photo 3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p class="">Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Main Content -->
+
+  <div class="container-fluid">
+    <!-- tag line -->
+    <div class="row">
+      <div class="col-12"></div>
+
+      <h3 class="display-6 text-center mt-5 mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Beatae,
+        officia reiciendis. Magnam.</h3>
+        </div>
+    </div>
+    <!-- features -->
+    <div class="row justify-content-evenly pt-3 pb-3">
+      <div class="col-md-3 text-center mt-4">
+        <h1><i class="bi bi-code-slash text-primary"></i></h1>
+        <h3>Write your code</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque asperiores suscipit eligendi obcaecati quas consequuntur illo impedit, possimus saepe a!</p>
+      </div>
+      <div class="col-md-3 text-center mt-4">
+        <h1><i class="bi bi-calendar2-range text-success"></i></h1>
+        <h3>Built your Apps</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque asperiores suscipit eligendi obcaecati quas consequuntur illo impedit, possimus saepe a!</p>
+      </div>
+      <div class="col-md-3 text-center mt-4">
+        <h1><i class="bi bi-calendar3-range-fill text-danger"></i></h1>
+        <h3>Make your day</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque asperiores suscipit eligendi obcaecati quas consequuntur illo impedit, possimus saepe a!</p>
+      </div>
+    </div>
+    <!-- line -->
+    <hr>
+
+    <!-- Growth Section -->
+    <div class="row justify-content-evenly pt-3 pb-3">
+      <div class="col-md-5">
+        <img src="/images/growth.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-5">
+
+        <h5 class="mt-3">Website Development</h5>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h5 class="mt-3">App Development</h5>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h5 class="mt-3">SEO</h5>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h5 class="mt-3">Marketing</h5>
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h5 class="mt-3">Software Development</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="row justify-content-evenly pt-3 pb-3 mt-4" style="background-color: #f1f1f1;">
+      <div class="col-md-5">
+        <h3 class="display-6 pb-3">Contact Form</h3>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Massege</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-5">
+        <h3 class="display-6 pb-3">Address</h3>
+        <p>Tomperintie 26, 88270 Vuolijoki, Finland<br>
+          6434+F3 Vuolijoki, Finland<br>
+          <i class="bi bi-telephone-fill"></i>+358401842324</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6945.579513243601!2d27.09428987634097!3d64.20156529677637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4682360c13605891%3A0xa04025dd40741c61!2sValkava%20Oy!5e0!3m2!1sen!2sbd!4v1663240061092!5m2!1sen!2sbd" style="width: 100%;" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="row justify-content-evenly pt-5 pb-4">
+      <div class="col-md-10">
+        <h3 class="text-center">FAQ</h3>
+        <!-- Accordion -->
+        <div class="accordion accordion-flush border" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is Web Development
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                What is App Development
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">An app developer is a computer software engineer whose primary responsibilities include creating, testing and programming apps for computers, mobile phones, and tablets. These developers typically work in teams, and think of ideas and concepts either for the general public, or for a specific customer need.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                What is Software Development
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">According to IBM Research: Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software.. <code> itself is the set of instructions or programs that tell a computer what to do. It is independent of hardware and makes computers programmable.</code></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- container end -->
+  </div>
+  <!-- BootStrap JavaScript -->
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
